@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Chicle:100,200,300,400,500,600,700');
+
+/*---------------------------------- colors*/
+
+
+
+/*----------------------------------Main body*/
+
+body {
+    font-family: "Chicle", sans-serif;
+    font-weight: 300;
+    background-color: #fef200;
+    color: #ffa500;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+/*----------------------------------General Styling*/
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Chicle", sans-serif;
+    font-weight: 300;
+    color: #ff0000;
+}
+
+.inline-block {
+    display: inline-block;
+    color: #e84610;
+}
+
+.row-table {
+    display: table;
+}
+
+.history-heading,
+.section-heading{
+    font-family: "Chicle", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+/*----------------------------------Header*/
+
+header {
+    margin: 0;
+    padding:0;
+}
+
+.heading {
+    margin-left: 50px;
+
+}
+
+.band{
+    background: url("/assets/images/monkees.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.logo {
+    background: url("/assets/images/guitar-yellow.jpg");
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 350px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+
+
+/*----------------------------------Navigation*/
+.nav {
+    color: #ffffff;
+    font-size: 40px;
+    padding:0;
+}
+
+.nav a {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #fef200;
+    cursor: default;
+    background-color: #f00;
+    border: none;
+    border-bottom-color: transparent;
+}
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 120px;
+}
+
+/*----------------------------------Footer*/
+
+footer {
+    background-color: #FFA500;
+    color: #ff0000;
+    min-height: 120px;
+}
+
+footer .cv-pgf i {
+    color: #ff0000;
+    text-align: center;
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+footer .cv-pdf i:hover {
+    color: #e84610;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #ff0000;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #e84610
+}
+
+#footer-details {
+    margin: 20px;
+}
+
+
+
+/*----------------------------------Contact*/
+
+.contact-heading{
+    font-family: "Chicle", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-from{
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"]{
+    margin-top:15px;
+    margin-bottom:20px;
+    background-color:#e84610;
+    color:#fafafa;
+}
+/*----------------------------------Media Queries*/
+
+@media(min-width:992px) {
+    .section-column {
+        padding: 0 30px 30px;
+        float: none;
+        display: table-cell;
+    }
+    }
