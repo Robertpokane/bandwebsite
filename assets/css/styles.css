@@ -64,7 +64,13 @@ h4 {
     margin-left: 20px;
 }
 
-/*----------------------------------Header*/
+.space {
+    padding-bottom: 25px;
+    
+}
+
+/*--------------
+--------------------Header*/
 
 header {
     margin: 0;
