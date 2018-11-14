@@ -12,9 +12,14 @@ For this project I had loads of ideas:
 <li>Monthly news letter subscription</li>
 <li>different payment options</li>
 <li>audio sampling of songs</li>
+<li>online shop with constantly updating merchendise</li>
+<li>Automatic update on home page if a new item has added</li>
+<li>notice apearing on the top of the home page that all first time orders have an instant 33% discount</li>
 </ul>
 
 After carefull consideration if have decided on a number of features to include for the opening versions of my project and what can be implimented for the future versions.
+
+For the initial version of my project I have implimented 
 
 
 <b>UX</b>
