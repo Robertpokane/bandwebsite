@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Chicle:100,200,300,400,500,600,700');
 
-/*---------------------------------- colors*/
-
-
-
 /*----------------------------------Main body*/
-
-
 
 body {
     font-family: "Chicle", sans-serif;
@@ -14,7 +8,7 @@ body {
     font-size: 20px;
     background-color: #fef200;
     color: #ff0000;
-    
+
 }
 
 h1,
@@ -38,15 +32,14 @@ h4 {
 
 .inline-block {
     display: inline-block;
+}
+
+.page-header{
+    border-bottom: none;
    
 }
 
-.row-table {
-    display: table;
-}
-
-
-.section-heading{
+.section-heading {
     font-family: "Chicle", sans-serif;
     font-weight: 300;
     margin-top: 25px;
@@ -54,8 +47,8 @@ h4 {
 }
 
 .container-fluid {
-    padding-right: 0; 
-    padding-left: 0; 
+    padding-right: 0;
+    padding-left: 0;
     margin-right: 0;
     margin-left: 0;
 }
@@ -66,7 +59,7 @@ h4 {
 
 .space {
     padding-bottom: 25px;
-    
+
 }
 
 /*--------------
@@ -74,17 +67,16 @@ h4 {
 
 header {
     margin: 0;
-    padding:0;
-    /*position:absolute;*/
+    padding: 0;
 }
 
-.band{
+.band {
     background: url("/assets/images/monkees.jpg");
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
-    padding-left:0;
+    padding-left: 0;
     padding-right: 0;
     margin-right: 0;
 }
@@ -95,37 +87,41 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 350px;
-    padding-left:0;
+    padding-left: 0;
     padding-right: 0;
- 
+
 }
 
 
 
 /*----------------------------------Navigation*/
+
 .nav {
     color: #ffffff;
     font-size: 40px;
-    padding:0;
-    margin:0;
-  
-    
+    padding: 0;
+    margin: 0;
+
+
 }
+
 .navbar-default,
 .nav a {
     color: #ff0000;
     text-decoration: none;
-    
-    
+
+
 }
 
-.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
     color: #fef200;
     cursor: default;
     background-color: #ff0000;
     border: none;
     border-bottom-color: transparent;
-    
+
 
 }
 
@@ -133,32 +129,33 @@ header {
 .nav-tabs {
     border-bottom: none;
     background-color: #fef200;
-    }
+}
 
- .nav-tabs li a:hover{
-     background: #eadf00;
-     border:none;
- }
- 
-    
-    
+.nav-tabs li a:hover {
+    background: #eadf00;
+    border: none;
+}
+
+
+
 /*---------------------------------image*/
 
-img {   
-    Margin:0;     
-    padding-left:0;
+img {
+    Margin: 0;
+    padding-left: 0;
     padding-right: 0;
 }
 
 
 /*----------------------------------Footer*/
 
-footer {
+#footer {
     background-color: #FFA500;
     color: #ff0000;
     min-height: 120px;
+    max-height: 120px;
     font-size: 15px;
-   position: relative;
+    position: relative;
 }
 
 .social-links {
@@ -185,7 +182,9 @@ footer {
     background: #fa9e00;
 }
 
-
+.page-header h1 {
+    font-size: 50px;
+}
 
 #footer-details {
     margin: 20px;
@@ -196,41 +195,67 @@ footer {
 
 /*----------------------------------Contact*/
 
-.contact-heading{
+.contact-heading {
     font-family: "Chicle", sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 20px;
 }
 
-.center-from{
+.center-form {
     padding-top: 10px;
     margin: 0 auto;
     max-width: 70%;
 }
 
-button[type="submit"]{
-    margin-top:15px;
-    margin-bottom:20px;
-    background-color:#e84610;
-    color:#fafafa;
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #e84610;
+    color: #fafafa;
 }
+/*----------------------------------iframe responsive*/
+.responsive{
+    width: 100%;
+    position: relative;
+    margin-bottom: 30px;
+   ;
+    
+}
+
+.responsive::before{
+content: '';
+display: block;
+padding-top:56.25%;
+}
+
+.responsive iframe {
+border: none;
+width:100%;
+height:100%;
+position:absolute;
+top:0;
+left: 0;
+}
+
+.center {
+    text-align: center;
+}
+
 /*----------------------------------Media Queries*/
 
-@media (max-width:600px){
-    .imggone{
-        display:none;
+@media (max-width:600px) {
+    .imggone {
+        display: none;
     }
-    .imgbig{
-        width:100% !important;
-    }
-}
-
-@media screen and (max-width: 750px){
-    .nav-tabs > li{
-    display:block;
-    width:100%;
+    .imgbig {
+        width: 100% !important;
     }
 }
 
-
+@media screen and (max-width: 750px) {
+    .nav-tabs>li {
+        display: block;
+        width: 100%;
+    }
+}

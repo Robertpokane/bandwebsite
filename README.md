@@ -3,10 +3,10 @@
 
 <b>One or two paragraphs providing an overview of your project</b>.
 
-In this, the first milestone project, I will implamenting what I have learned and what i can do at this early stage of my coding career. 
+In this, the first milestone project, I will implamenting what I have learned and what I can do at this early stage of my coding career. 
 For this project I had loads of ideas:
 <ul>
-<li>A live news feed for the HOME page </li>
+<li>A live news feed for the <b>HOME</b> page </li>
 <li>Links to the bands Spotify/youtube/twitter/facebook on every footer</li> 
 <li>Album playlists that changed the song list when clicked on on the shopping page</li> 
 <li>Monthly news letter subscription</li>
@@ -17,9 +17,9 @@ For this project I had loads of ideas:
 <li>notice apearing on the top of the home page that all first time orders have an instant 33% discount</li>
 </ul>
 
-After carefull consideration if have decided on a number of features to include for the opening versions of my project and what can be implimented for the future versions.
+<p>After carefull consideration if have decided on a number of features to include for the opening versions of my project and what can be implimented for the future versions.</p>
 
-For the initial version of my project I have implimented 
+For the initial version of my project I have implimented a news setion in the Index page, right now it is filled with Lorem text as this is a proof 
 
 
 <b>UX</b>
