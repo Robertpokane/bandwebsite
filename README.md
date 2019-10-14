@@ -26,7 +26,7 @@ give the user a glimse into the history of the piece, beside what we have, as th
 <b>UX</b>
 
 <p> My UX process is a pretty simple one. I start with my end goal and work backwords taking each step as a stepping stone to reach how I shoulld start my project as explaine above. 
-My aim was to provide an avenue for fans of the band, long term and new fans, to find out somethibng they didnt previously know about the band. Weither that is through our news feature </p>
+My aim was to provide an avenue for fans of the band, long term and new fans, to find out somethibng they didnt previously know about the band. Weither that is through our news feature or through the stories in tunes we always have something to offer</p>
 
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
