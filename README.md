@@ -20,14 +20,13 @@ For this project I had loads of ideas:
 <p>After carefull consideration I have decided on a number of features to include for the opening versions of my project and what can be implimented for the future versions.</p>
 
 <p>For the initial version of my project I have implimented a news setion in the Index page, right now it is filled with Lorem text as to give the band an idea as to what it is going to look like.
-from the limited library that I have to hand. I was able to get a few of the songs and almbum covers implimented into the tunes section. Each of the songs has an exerpt from wikipeda beside it to give the user a glimse into the history of the piece, beside what we have, as the main attraction the music video of Daydream Believer.
-
-
-
+from the limited library that I have to hand. I was able to get a few of the songs and almbum covers implimented into the tunes section. Each of the songs has an exerpt from wikipeda beside it to 
+give the user a glimse into the history of the piece, beside what we have, as the main attraction the music video of Daydream Believer.
 
 <b>UX</b>
 
-<p> </p>
+<p> My UX process is a pretty simple one. I start with my end goal and work backwords taking each step as a stepping stone to reach how I shoulld start my project as explaine above. 
+My aim was to provide an avenue for fans of the band, long term and new fans, to find out somethibng they didnt previously know about the band. Weither that is through our news feature </p>
 
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
