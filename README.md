@@ -87,3 +87,4 @@ Media
 The photos used in this site were obtained from ...
 Acknowledgements
 I received inspiration for this project from X# interactive-front-end-developement-project
+# interactive-front-end-developement-project
