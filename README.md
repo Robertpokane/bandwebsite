@@ -15,6 +15,7 @@ For this project I had loads of ideas:
 <li>online shop with constantly updating merchendise</li>
 <li>Automatic update on home page if a new item has added</li>
 <li>notice apearing on the top of the home page that all first time orders have an instant 33% discount</li>
+<li>Monkees TV show episodes/ clips fromt he show</li>
 </ul>
 
 <p>After carefull consideration I have decided on a number of features to include for the opening versions of my project and what can be implimented for the future versions.</p>
@@ -26,28 +27,67 @@ give the user a glimse into the history of the piece, beside what we have, as th
 <b>UX</b>
 
 <p> My UX process is a pretty simple one. I start with my end goal and work backwords taking each step as a stepping stone to reach how I shoulld start my project as explaine above. 
-My aim was to provide an avenue for fans of the band, long term and new fans, to find out somethibng they didnt previously know about the band. Weither that is through our news feature or through the stories in tunes we always have something to offer</p>
+My aim was to provide an avenue for fans of the band, long term and new fans, to find out somethibng they didnt previously know about the band. Weither that is through our news feature or through the stories in tunes we always have something to offer.
+
+
+My focus for the site is to keep the user's attention engaged. this is done in a number of ways. First of all we need a eye catching story to put on the front page, music to stimulate the mind while they read an amusing anecdote abut the piece that they are listening to. where we can then direct them to our shop where sonds, digital and physical can be sold, limited edition merchandise, signed posters
+what ever the band wants to sell. We can collect email addresses and Send out a monthly email with Stories, a "this day in History" freature (example on this day 12th June 1967 was the first ever episode of the monkees or Micky Dolenz birthday.) new items available from the shop. Thing like that. </p>
+
+What I aim to achieve:
+
+<b>Jimmy:</b>
+
+
+"as sombody that was born long after the rise of the monkees, I wanted to get to know what the bad was like what sort of music they making, what the tv show was like, so I naturally gravitated towards the site, 
+It has all the information i need, as well as a music, music videos, stories from behind thesceens and more!"
+
+<b>Tommy:</b>
+
+
+"I grew up listening to the monkees on the radio and watching them on the tv. I have followed there career from the first comedic musical beginings in 1966 until today. The website keeps me updates with everything that is going on today."
+
+<b>Julie:</b>
+
+"I am an avid collecter of music and music memberoilia. I have Such a soft spot for all things Monkee releated. The news letter keeps me up-to-date with sales happening in the store and when there is anything new I can add to my collection "
+
+These are the 3 core user types that I bases my site around, from my <a href="assets/Wireframes/Band website mockup.bmpr">wireframes</a> as a strating point to the stories on the stories on the <a href="tunes.html">Tunes</a> page to the music and Merchandise that will be available on the <a href="shop.html">Shop</a> page
 
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
-Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+In addition,my plans for the future of this website is to:
 
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+<ul>
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+<li>Have either clips or full episode on the monkees tv show</li>
+<li>Have a customisable merchendise page, names, </li>
+<li>Run monthly competitions to recieve signed merchandise</li>
+<li>Set up a Monthly News letter called "Monkee Around Monthly"</li>
 
-Features Left to Implement
-Another feature idea
+</ul>
+
+
 Technologies Used
+
+Once I took stock of all the technoliges used for my project I was genuinly surprise at the ever growing list that I amased. 
+
+<ul>
+
+<li>HTML 5 fot the basic lay out and structuer of the site</li>
+<li>CSS for the colour and style of the site </li>
+<li>Google fonts for the style of the writing in the site <a target = 'blank'href="https://fonts.googleapis.com/css?family=Chicle"> Google Fonts</a></li>
+<li>Font Awesome fot the small styliesd icons (facebook, twitter, spotify icons) <a target = 'blank'href="https://fontawesome.com">Font Awesome</a></li>
+<li>Hover for the hover effects when navigating <a target = 'blank'href="https://cdnjs.com/libraries/hover.css">CDNJS</a></li>
+<li>Bootstrap for the navigation button style <a target = 'blank'href="https://getbootstrap.com/https://getbootstrap.com/">Bootstrap</a></li>
+<li>Jquerry as Bootstrap relays on it <a target = 'blank'href="https://jquery.com">Jquery</a></li>
+<li>I used alot of the information on the Code Instatute course allong with all of the music and pictures of the band <a target = 'blank'href="https://codeinstitute.net/">Code Institute</a></li>
+<li>LinkedIn learning fort the responsive Iframe for the music video <a target = 'blank' href="https://www.linkedin.com/learning/">LinkedIn Learning</a></li>
+<li>All of the information I used regarding the Bios and stories surronding the music was taken from <a target = 'blank'href="https://en.wikipedia.org/wiki/Main_Page">Wikipedia</a></li>
+</u>
+
+
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
 JQuery
