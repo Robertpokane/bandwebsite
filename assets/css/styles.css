@@ -16,6 +16,7 @@ h2,
 h3,
 h4 {
     margin: 0;
+   
 }
 
 /*----------------------------------General Styling*/
@@ -61,6 +62,7 @@ h4 {
     padding-bottom: 25px;
 
 }
+
 
 /*--------------
 --------------------Header*/
@@ -136,7 +138,26 @@ header {
     border: none;
 }
 
+.glyphicon {
+    color: #ff0000;
+    padding-bottom: 15px;
+}
 
+.glyphicon a {
+    padding: 12px 0;
+    border-radius: 50%;
+    text-align: center;
+    color: #fafafa;
+    background: #ff0000;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.glyphicon a:hover {
+    background: #fa9e00;
+}
 
 /*---------------------------------image*/
 
@@ -250,11 +271,13 @@ left: 0;
     padding: 0;
     font-size: 16px;
     border: none;
+    transform: translateY(2 em, 1s);
 }
 
 .dropdown {
     position: relative;
     display: inline-block;
+    
     
 }
 .dropdownLink {
@@ -262,8 +285,8 @@ left: 0;
     display: block;
     background-color: #fef200;
     padding:10px 5px;
-    transition: background-color 3s ease-in-out, color .5s ease-in-out;
     color: #4a4a4f; /*default settings for links NOT being hovered over*/
+    
     
     
 }
@@ -277,7 +300,8 @@ left: 0;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     list-style: none;
-    
+    transition: background-color 3s ease-in-out, color .5s ease-in-out translat( 5s);
+  
 }
 
 .dropdown-content a {
@@ -286,14 +310,16 @@ left: 0;
     display: block;
     background-color: #fef200;
     color: #ff0000;
+    transform: translateY(2 em, 3s);
    
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {background-color: #ddd; transform: translateY(2 em, 3s);}
 
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {display: block; transform: translateY(2 em, 3s);}
 
-.dropdown:hover .dropbtn {background-color: #fef200;}
+.dropdown:hover .dropbtn { background-color: #fef200; }
+
 
 /*----------------------------------Media Queries*/
 

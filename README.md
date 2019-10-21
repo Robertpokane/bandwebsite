@@ -85,30 +85,21 @@ Once I took stock of all the technoliges used for my project I was genuinly surp
 <li>I used alot of the information on the Code Instatute course allong with all of the music and pictures of the band <a target = 'blank'href="https://codeinstitute.net/">Code Institute</a></li>
 <li>LinkedIn learning fort the responsive Iframe for the music video <a target = 'blank' href="https://www.linkedin.com/learning/">LinkedIn Learning</a></li>
 <li>All of the information I used regarding the Bios and stories surronding the music was taken from <a target = 'blank'href="https://en.wikipedia.org/wiki/Main_Page">Wikipedia</a></li>
+<li>EmailJS to send and recieve emails via the contact page <a target = 'blank'href="https://www.emailjs.com/">EmailJS</a></li>
 </u>
 
+<h2>Testing</h2>
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+<p>My approch to testing was a break it as you go type of approch. I would make a feature and test what I would need to do un render the site unuseable. so for example on index.html. I had alot of issues with the navigaition buttons and the images at the top of the page. The images remained the same size no matter the screen size and therefor on mobile devices the user would be scrolling pas them fOR
+an unreasionable amount of time before reaching the navigation buttons. That was not a very good user experience. To account for that I used a media querry to hide one of the pictures at 600 px and make the second image 100% of the width, that way it will resize itself.
+another issue that I came accross was implamenting the hamburger icon for mobile devices. I could get it to appear when the screen size was at the desired size but the Nav buttons stayed aswell and the Hamburger would not open. As I would soon come to find with this project, there was a full stop in the css code that shouldnt be there that was preventiing it from working properly. That was a common theme with bugs in my code.
+once I realised the mistake that I was making I was able to fairly easily avoid making it in the future and knew what to look for when I had more issues. The issue that game me the most trouble outside of the hamburger icon was the responsive iFrame for the video. I could get the video to play or have the frame bigger than 100 px. it wold nto let me do both. So I deleted the full div containging the video player and started again 
+after consulting linkedin Learning for a few tips on how to fix my issue.  </p>
 
-JQuery
-The project uses JQuery to simplify DOM manipulation.
-Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+All of the links have been tested thourghly, I would create a section or feature and the I would Click on each link while I was previewing them. All of the links worked taking me to each of the desired destination.
+in developer tools I reszed teh screeen to simulate mobile device usage to ses if media querries have worked correctly. The songs in the tunes page all play along with the video, the Iframe also resonds to the the size of the window its displayed in. 
+I have tested all of the aspects of the Contact Us Page. There will be an error saying "please fill in this field" if one of the mandditory fields are not filled in as well as point to the field where it has detected the error. 
+My site has been tested on multible browsers and multible screen sizes. Small, medium and large mobile aswell as ipad and laptop sizes with no issues.
 
 Deployment
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
@@ -122,9 +113,25 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 Credits
 Content
-The text for section Y was copied from the Wikipedia article Z
+The text for the Band bio's was all copied from various Wikipedia articles:
+
+<ul>wikipedia https://en.wikipedia.org/wiki/Micky_Dolen
+<li>Micky Dolenz: wikipedia https://en.wikipedia.org/wiki/Micky_Dolenz</li>
+<li>Peter Tork: wikipedia https://en.wikipedia.org/wiki/Peter_Tork</li>
+<li>Michael Nesmith: https://en.wikipedia.org/wiki/Michael_Nesmith</li>
+<li>Davey Jones: https://en.wikipedia.org/wiki/Davy_Jones_(musician)</li>
+
+I also got the stories for the Tunes ahoy! section in the tunes page from Wikipedia:
+https://www.songfacts.com/facts/the-monkees/last-train-to-clarksville
+
+<li>Last train to Clarksville: https://www.songfacts.com/facts/the-monkees/last-train-to-clarksville</li>
+<li>I'm a Believer: https://en.wikipedia.org/wiki/I%27m_a_Believer</li>
+<li>Daydream Believer: https://www.songfacts.com/facts/the-monkees/daydream-believerr</li>
+<li>Stepping Stone: https://en.wikipedia.org/wiki/(I%27m_Not_Your)_Steppin%27_Stone</li>
+</ul>
+
+
 Media
-The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from X# interactive-front-end-developement-project
+All photos and music used in this site were obtained from Code Institute frot eh sole purpose of use in this Milestone project
+
 # interactive-front-end-developement-project
