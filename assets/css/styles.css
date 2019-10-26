@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Chicle:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap:100,200,300,400,500,600,700');
 
 /*----------------------------------Main body*/
 
 body {
-    font-family: "Chicle", sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     font-size: 20px;
-    background-color: #fef200;
-    color: #ff0000;
+    background: black;
+    color: #a9a9a9;
 
 }
 
@@ -26,9 +26,7 @@ h4 {
 }
 
 .general-sub {
-    font-family: "Chicle", sans-serif;
-    font-weight: 300;
-    color: #ff0000;
+        color: #ff0000;
 }
 
 .inline-block {
@@ -41,7 +39,7 @@ h4 {
 }
 
 .section-heading {
-    font-family: "Chicle", sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
@@ -60,6 +58,7 @@ h4 {
 
 .space {
     padding-bottom: 25px;
+    margin-right: 0px;
 
 }
 
@@ -83,84 +82,6 @@ header {
     margin-right: 0;
 }
 
-.logo {
-    background: url("/assets/images/guitar-yellow.jpg");
-    background-position: left bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 350px;
-    padding-left: 0;
-    padding-right: 0;
-
-}
-
-
-
-/*----------------------------------Navigation*/
-
-.nav {
-    color: #ffffff;
-    font-size: 40px;
-    padding: 0;
-    margin: 0;
-
-
-}
-
-.navbar-default,
-.nav a {
-    color: #ff0000;
-    text-decoration: none;
-
-
-}
-
-.nav-tabs>li.active>a,
-.nav-tabs>li.active>a:focus,
-.nav-tabs>li.active>a:hover {
-    color: #fef200;
-    cursor: default;
-    background-color: #ff0000;
-    border: none;
-    border-bottom-color: transparent;
-
-
-}
-
-.navbar-default,
-.nav-tabs {
-    border-bottom: none;
-    background-color: #fef200;
-}
-
-.nav-tabs li a:hover {
-    background: #eadf00;
-    border: none;
-}
-
-.glyphicon {
-    color: #ff0000;
-    padding-bottom: 15px;
-}
-
-.glyphicon a {
-    padding: 12px 0;
-    border-radius: 50%;
-    text-align: center;
-    color: #fafafa;
-    background: #ff0000;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.glyphicon a:hover {
-    background: #fa9e00;
-}
-
-/*---------------------------------image*/
-
 img {
     Margin: 0;
     padding-left: 0;
@@ -171,12 +92,11 @@ img {
 /*----------------------------------Footer*/
 
 #footer {
-    background-color: #FFA500;
-    color: #ff0000;
-    min-height: 120px;
+        min-height: 120px;
     max-height: 120px;
     font-size: 15px;
     position: relative;
+    text-align: center;
 }
 
 .social-links {
@@ -197,6 +117,7 @@ img {
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
+    
 }
 
 .social-links li a i:hover {
@@ -208,8 +129,9 @@ img {
 }
 
 #footer-details {
-    margin: 20px;
-    background-color: #ffa500
+    margin-top: 20px;
+    text-align: center;
+
 }
 
 
@@ -217,7 +139,7 @@ img {
 /*----------------------------------Contact*/
 
 .contact-heading {
-    font-family: "Chicle", sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 20px;
@@ -337,4 +259,45 @@ left: 0;
         display: block;
         width: 100%;
     }
+}
+/*----------------------------------Navigation*/
+
+.nav {
+    color: #ffffff;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+
+
+}
+
+.navbar-default,
+.nav a {
+    color: #ff0000;
+    text-decoration: none;
+
+
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+    color: #fef200;
+    cursor: default;
+    background-color: #ff0000;
+    border: none;
+    border-bottom-color: transparent;
+
+
+}
+
+.navbar-default,
+.nav-tabs {
+    border-bottom: none;
+    background-color: #fef200;
+}
+
+.nav-tabs li a:hover {
+    background: #eadf00;
+    border: none;
 }
