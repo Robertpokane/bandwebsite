@@ -30,8 +30,7 @@ give the user a glimse into the history of the piece, beside what we have, as th
 My aim was to provide an avenue for fans of the band, long term and new fans, to find out somethibng they didnt previously know about the band. Weither that is through our news feature or through the stories in tunes we always have something to offer.
 
 
-My focus for the site is to keep the user's attention engaged. this is done in a number of ways. First of all we need a eye catching story to put on the front page, music to stimulate the mind while they read an amusing anecdote abut the piece that they are listening to. where we can then direct them to our shop where sonds, digital and physical can be sold, limited edition merchandise, signed posters
-what ever the band wants to sell. We can collect email addresses and Send out a monthly email with Stories, a "this day in History" freature (example on this day 12th June 1967 was the first ever episode of the monkees or Micky Dolenz birthday.) new items available from the shop. Thing like that. </p>
+My focus for the site is to keep the user's attention engaged. this is done in a number of ways. First of all we need a eye catching story to put on the front page There is also an embed link to Youtube and Spotify Widgets to a couple of albums from the band. </p>
 
 What I aim to achieve:
 
@@ -62,7 +61,7 @@ In addition,my plans for the future of this website is to:
 <ul>
 
 <li>Have either clips or full episode on the monkees tv show</li>
-<li>Have a customisable merchendise page, names, </li>
+<li>Have a shop with customisable merchendise page ie names birthday customisable signed merchandise </li>
 <li>Run monthly competitions to recieve signed merchandise</li>
 <li>Set up a Monthly News letter called "Monkee Around Monthly"</li>
 
@@ -85,7 +84,8 @@ Once I took stock of all the technoliges used for my project I was genuinly surp
 <li>I used alot of the information on the Code Instatute course allong with all of the music and pictures of the band <a target = 'blank'href="https://codeinstitute.net/">Code Institute</a></li>
 <li>LinkedIn learning fort the responsive Iframe for the music video <a target = 'blank' href="https://www.linkedin.com/learning/">LinkedIn Learning</a></li>
 <li>All of the information I used regarding the Bios and stories surronding the music was taken from <a target = 'blank'href="https://en.wikipedia.org/wiki/Main_Page">Wikipedia</a></li>
-<li>EmailJS to send and recieve emails via the contact page <a target = 'blank'href="https://www.emailjs.com/">EmailJS</a></li>
+<li>EmailJS to send and recieve emails via the contact page <a target = 'blank'href="https://www.emailjs.com/">EmailJS</a></li>.
+<li>I used spotify widgets for the playlists in tunes <a target = 'blank'href="https://www.spotify.com/">Spotify</a></li>
 </u>
 
 <h2>Testing</h2>
@@ -101,17 +101,16 @@ in developer tools I reszed teh screeen to simulate mobile device usage to ses i
 I have tested all of the aspects of the Contact Us Page. There will be an error saying "please fill in this field" if one of the mandditory fields are not filled in as well as point to the field where it has detected the error. 
 My site has been tested on multible browsers and multible screen sizes. Small, medium and large mobile aswell as ipad and laptop sizes with no issues.
 
-Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+<b>Amendments</b>
+Mid way through the devolpment of my site I had a conversation with my mentor and we had both came to the conclusion that the layout of my site could be tidyed up an thet the origional colour scheme needed to be changed. So because of this my wireframes look nothing like my finished website now.
+which, to be honest, is all for teh better. I feel that my site is cleaner, streamlined and more profesional looking than before.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+<b>Deployment</b>
+I have my <a target = 'blank'href="https://robertpokane.github.io/bandwebsite/">Website</a></li> github pages. 
 
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+The link will take you directly to it. I pushed my code to github, logged into the gitub site and seleced my band website repo and published it in the settins>ithub pages option.
 
-Credits
+<b>Credits</b>
 Content
 The text for the Band bio's was all copied from various Wikipedia articles:
 
@@ -132,6 +131,6 @@ https://www.songfacts.com/facts/the-monkees/last-train-to-clarksville
 
 
 Media
-All photos and music used in this site were obtained from Code Institute frot eh sole purpose of use in this Milestone project
+All photos and music used in this site were obtained from Code Institute for the sole purpose of use in this Milestone project
 
 # interactive-front-end-developement-project
