@@ -6,15 +6,15 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/styles.css" type="text/css" />
-    
+
     <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
 
     <script type="text/javascript">
         (function() {
             emailjs.init("user_w0FkLN5VDVOyxrPj5a4fs");
-                    })();
+        })();
     </script>
-    
+
     <meta name="viewport" content="width=device-width, initial-scale-1">
 </head>
 
@@ -25,65 +25,70 @@
         <header class="container-fluid space">
             <!-- Nav tabs -->
             <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-    <a class="navbar-brand" href="/assets/Wireframes/Band website mockup.bmpr">Monkeees</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" href="/assets/Wireframes/Band website mockup.bmpr">Monkeees</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarColor01">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="bandbio.html">Band Bio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="tunes.html">Tunes</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="shop.html">Shop</a>
-          <li class="nav-item active">
-          <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
-        </li>
-        </li>
-      </ul>
-      
-    </div>
-  </nav>
-            
+                <div class="collapse navbar-collapse" id="navbarColor01">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="bandbio.html">Band Bio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tunes.html">Tunes</a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </nav>
+
             </div>
         </header>
-<div class="container-fluid"  style="text-align: center;"><!-- total news area-->
-    
-    <div class="col-md-10"><!-- main news feature-->
-        
+        <div class="container-fluid" style="text-align: center;">
+            <!-- total news area-->
 
-       <div class="row bg-color-contact">
-            <div>
-                <h3 class="contact-heading uppercase text-center">We are available for Concerts and parties!</h3>
-                <h5 class="uppercase text-center">Get in touch to organise the the best night of your life!</h5>
+            <div class="col">
+                <!-- main news feature-->
+
+
+                <div class="row bg-color-contact"><!--Total area-->
+                    
+                    
+                    <div class="row space center"> <!--Headings-->
+                        <div class="col-12 center">
+                            <h1 class="uppercase">We are available for Concerts, Wedding and Parties!</h1>
+                        </div>
+                        <div class="col-12 center">
+                            <h3 class="uppercase">Get in touch to organise the the best night of your life!</h3>
+                        </div>
+                    </div>
+                    <div class="center-form row"><!--Working contact us form-->
+                        <form onsubmit="return sendMail(this);" style="width:1080px;">
+
+                            <form>
+                                <input type="text" name="name" class="form-control form-control-lg" id="fullname" placeholder="Name" required/>
+                                <input type="text" name="emailaddress" class="form-control form-control-lg" id="emailaddress" placeholder="Email" required/>
+                                <textarea rows="5" name="projectsummary" class="form-control form-control-lg" id="projectsummary" placeholder="We need to know when and where..." required></textarea>
+                                <button type="submit" class="btn btn-secondary center-block">Send Booking Request</button>
+                            </form>
+                    </div>
+                </div>
+
             </div>
-            <div class="center-form">
-                <form onsubmit="return sendMail(this);">
-                    <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
-                    <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
-                    <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="We need to know when and where..." required></textarea>
-                    <button type="submit" class="btn btn-secondary center-block">Send Booking Request</button>
-                </form>
-            </div>
+
         </div>
-    
-    </div>
-
-</div>
-
-
-
-
-<footer>
+        <footer>
             <div id="footer-details" class="row">
-               
+
                 <div class="col inline">
                     <h5 class="uppercase general-sub">Come find us here!</h5>
                     <ul class="list-inline social-links inline">
@@ -95,11 +100,11 @@
                     </ul>
                 </div>
             </div>
-        
-        
+
+
         </footer>
-</main>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.jss"></script>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="assets/js/sendemail.js"></script>
 </body>

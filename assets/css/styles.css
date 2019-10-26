@@ -143,6 +143,7 @@ img {
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .center-form {
@@ -162,7 +163,7 @@ button[type="submit"] {
     width: 100%;
     position: relative;
     margin-bottom: 30px;
-   ;
+   
     
 }
 
@@ -186,61 +187,7 @@ left: 0;
 }
 
 
-/*----------------------------------dropdown Queries*/
-.dropbtn {
-    background-color: #fef200;
-    color: #fef200;
-    padding: 0;
-    font-size: 16px;
-    border: none;
-    transform: translateY(2 em, 1s);
-}
 
-.dropdown {
-    position: relative;
-    display: inline-block;
-    
-    
-}
-.dropdownLink {
-    text-decoration: none; /* removes underline from dropdown links*/
-    display: block;
-    background-color: #fef200;
-    padding:10px 5px;
-    color: #4a4a4f; /*default settings for links NOT being hovered over*/
-    
-    
-    
-}
-.dropdown-content {
-    display: none;
-    text-decoration: none;
-    width: 256px;
-    background-color: #fef200;
-    color: #ff0000;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    list-style: none;
-    transition: background-color 3s ease-in-out, color .5s ease-in-out translat( 5s);
-  
-}
-
-.dropdown-content a {
-    
-    text-decoration: none;
-    display: block;
-    background-color: #fef200;
-    color: #ff0000;
-    transform: translateY(2 em, 3s);
-   
-}
-
-.dropdown-content a:hover {background-color: #ddd; transform: translateY(2 em, 3s);}
-
-.dropdown:hover .dropdown-content {display: block; transform: translateY(2 em, 3s);}
-
-.dropdown:hover .dropbtn { background-color: #fef200; }
 
 
 /*----------------------------------Media Queries*/
@@ -259,45 +206,4 @@ left: 0;
         display: block;
         width: 100%;
     }
-}
-/*----------------------------------Navigation*/
-
-.nav {
-    color: #ffffff;
-    font-size: 40px;
-    padding: 0;
-    margin: 0;
-
-
-}
-
-.navbar-default,
-.nav a {
-    color: #ff0000;
-    text-decoration: none;
-
-
-}
-
-.nav-tabs>li.active>a,
-.nav-tabs>li.active>a:focus,
-.nav-tabs>li.active>a:hover {
-    color: #fef200;
-    cursor: default;
-    background-color: #ff0000;
-    border: none;
-    border-bottom-color: transparent;
-
-
-}
-
-.navbar-default,
-.nav-tabs {
-    border-bottom: none;
-    background-color: #fef200;
-}
-
-.nav-tabs li a:hover {
-    background: #eadf00;
-    border: none;
 }
