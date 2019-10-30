@@ -8,6 +8,10 @@ body {
     font-size: 20px;
     background: black;
     color: #a9a9a9;
+    overflow-x: hidden;
+    margin: 0px;
+    height: 100%;
+    width:100%;
 
 }
 
@@ -19,6 +23,11 @@ h4 {
    
 }
 
+
+.row {
+    margin: 0px
+    
+}
 /*----------------------------------General Styling*/
 
 .uppercase {
@@ -207,3 +216,8 @@ left: 0;
         width: 100%;
     }
 }
+
+.col-border {
+    margin:0 auto;
+}
+

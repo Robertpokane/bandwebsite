@@ -60,10 +60,12 @@
                 <!-- main news feature-->
 
 
-                <div class="row bg-color-contact"><!--Total area-->
-                    
-                    
-                    <div class="row space center"> <!--Headings-->
+                <div class="row bg-color-contact">
+                    <!--Total area-->
+
+
+                    <div class="row space center">
+                        <!--Headings-->
                         <div class="col-12 center">
                             <h1 class="uppercase">We are available for Concerts, Wedding and Parties!</h1>
                         </div>
@@ -71,14 +73,29 @@
                             <h3 class="uppercase">Get in touch to organise the the best night of your life!</h3>
                         </div>
                     </div>
-                    <div class="center-form row"><!--Working contact us form-->
+                    <div class="center-form row">
+                        <!--Working contact us form-->
                         <form onsubmit="return sendMail(this);" style="width:1080px;">
 
-                            <form>
-                                <input type="text" name="name" class="form-control form-control-lg" id="fullname" placeholder="Name" required/>
-                                <input type="text" name="emailaddress" class="form-control form-control-lg" id="emailaddress" placeholder="Email" required/>
-                                <textarea rows="5" name="projectsummary" class="form-control form-control-lg" id="projectsummary" placeholder="We need to know when and where..." required></textarea>
-                                <button type="submit" class="btn btn-secondary center-block">Send Booking Request</button>
+
+                            <form class="col-md-12">
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <label for="Name">Full Name</label>
+                                        <input type="Name" class="form-control" id="name" aria-describedby="Name" placeholder="Enter Name" required>
+
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="email">Email Address</label>
+                                        <input type="email" class="form-control" id="emailaddress" placeholder="email" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="projectsummary">Concert Summary</label>
+                                    <textarea rows="5" name="projectsummary" class="form-control form-control-lg" id="projectsummary" placeholder="We need to know when and where..." required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
                             </form>
                     </div>
                 </div>
